@@ -1,0 +1,11 @@
+# 프로틴 할인 알림 - 의존 패키지
+# 실제로 import되는 패키지만 나열합니다 (core/*.py, ui/*.py, tools/*.py 기준).
+# 버전은 이 프로젝트 개발 환경(Python 3.14 / Windows 11)에 설치된 버전을 pip show로
+# 확인해 하한선(>=)으로 적었습니다.
+
+selenium>=4.48.0
+seleniumbase>=4.53.6
+winotify>=1.1.0
+pystray>=0.19.5
+Pillow>=12.3.0
+sv-ttk>=2.6.1

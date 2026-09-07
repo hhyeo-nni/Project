@@ -1,0 +1,26 @@
+{
+  "_comment": "쿠팡 DOM 셀렉터. 쿠팡이 화면을 개편해 파싱이 깨지면 이 파일만 고치면 됩니다.",
+  "_comment_sold_out": "품절 상품은 .price-container 자체가 렌더링되지 않습니다. sold_out 셀렉터로 잡은 요소의 텍스트에 sold_out_texts 중 하나가 들어있으면 품절로 판정합니다.",
+  "price_container": ".price-container",
+  "price_layout": ".price-layout-container",
+  "og_title": "meta[property='og:title']",
+  "og_image": "meta[property='og:image']",
+  "sold_out": [
+    "[class*='prod-not-find']",
+    "[class*='buybox']",
+    ".oos-label",
+    "[class*='oos-']",
+    "[class*='sold-out']",
+    "[class*='soldout']"
+  ],
+  "sold_out_texts": [
+    "일시품절",
+    "품절",
+    "판매중지",
+    "현재 판매중인 상품이 아닙니다",
+    "판매가 종료"
+  ],
+  "challenge_marker": "sec-if-cpt-container",
+  "error_marker": "error403",
+  "min_page_length": 30000
+}

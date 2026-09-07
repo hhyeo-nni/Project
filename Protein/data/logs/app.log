@@ -1,0 +1,788 @@
+2026-09-03 14:41:07,915 [INFO] __main__: 토스트 알림 표시: 마이프로틴 임팩트 웨이 1kg 초콜릿 / 52,900원 → 41,900원 (▼21%) · 목표가 45,000원 도달
+2026-09-03 14:41:08,389 [INFO] __main__: 토스트 알림 표시: 옵티멈뉴트리션 골드스탠다드 100% 웨이 2lbs 더블리치초콜릿 / 39,900원 · 역대 최저가 갱신! (이전 최저 42,000원)
+2026-09-03 14:41:08,891 [INFO] __main__: 토스트 알림 표시: 바디빌더스가든 웨이 프로틴 아이솔레이트 2kg / 품절 → 재입고! 현재가 68,000원
+2026-09-03 14:41:09,380 [INFO] __main__: 토스트 알림 표시: 프로틴 할인 알림 / 알림 시스템 자체 테스트가 완료되었습니다.
+2026-09-03 14:41:16,645 [DEBUG] root: 디버그 메시지 테스트
+2026-09-03 14:41:16,647 [INFO] root: 정보 메시지 테스트
+2026-09-03 14:41:16,647 [WARNING] root: 경고 메시지 테스트
+2026-09-03 14:41:16,647 [ERROR] root: 에러 메시지 테스트
+2026-09-03 15:16:36,626 [INFO] main: ============================================================
+2026-09-03 15:16:36,626 [INFO] main: 프로틴 할인 알림 시작
+2026-09-03 15:16:36,942 [INFO] core.scheduler: 점검할 활성화된 상품이 없습니다.
+2026-09-03 15:16:36,943 [INFO] core.scheduler: 스케줄러 스레드를 시작했습니다.
+2026-09-03 15:16:36,943 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 15:45:24.195744 (대기 약 1727.3초, backoff x1)
+2026-09-03 15:16:36,943 [INFO] main: 감시 시작 — 상품 0개, 주기 30분
+2026-09-03 15:16:36,972 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 실행됨 / 감시할 상품이 없습니다. 트레이 아이콘 우클릭 → 설정에서 쿠팡 상품 URL을 추가하세요.
+2026-09-03 15:21:26,053 [INFO] main: ============================================================
+2026-09-03 15:21:26,053 [INFO] main: 프로틴 할인 알림 시작
+2026-09-03 15:21:26,067 [INFO] core.scheduler: 점검할 활성화된 상품이 없습니다.
+2026-09-03 15:21:26,067 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 15:47:11.283478 (대기 약 1545.2초, backoff x1)
+2026-09-03 15:21:26,067 [INFO] core.scheduler: 스케줄러 스레드를 시작했습니다.
+2026-09-03 15:21:26,068 [INFO] main: 감시 시작 — 상품 0개, 주기 30분
+2026-09-03 15:21:26,099 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 실행됨 / 감시할 상품이 없습니다. 트레이 아이콘 우클릭 → 설정에서 쿠팡 상품 URL을 추가하세요.
+2026-09-03 15:21:40,679 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-03 15:23:30,229 [INFO] core.scraper: 브라우저 기동 (Chrome 151, 프로필 D:\김호현\AI\Project\프로틴 할인 알림\data\chrome_profile)
+2026-09-03 15:23:30,568 [INFO] undetected_chromedriver.patcher: patching driver executable C:\Users\yooshin\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2026-09-03 15:23:44,250 [INFO] core.scraper: 세션 워밍업 메인=True 검색=True
+2026-09-03 15:23:44,592 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (1/4) url=/vp/products/
+2026-09-03 15:23:49,889 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (2/4) url=/vp/products/
+2026-09-03 15:23:56,052 [INFO] core.scraper: Akamai 차단 — 8초 후 새로고침 재시도 (3/4) url=/vp/products/
+2026-09-03 15:24:44,488 [WARNING] core.scraper: 페이지 대기 시간 초과 (마지막 상태=exception, url=/vp/products/)
+2026-09-03 15:24:44,491 [INFO] core.scraper: 브라우저 기동 (Chrome 151, 프로필 D:\김호현\AI\Project\프로틴 할인 알림\data\chrome_profile)
+2026-09-03 15:24:50,654 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (1/5) url=/np/search
+2026-09-03 15:24:58,202 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (2/5) url=/np/search
+2026-09-03 15:25:02,943 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (3/5) url=/np/search
+2026-09-03 15:25:10,082 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (4/5) url=/np/search
+2026-09-03 15:25:16,392 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (5/5) url=/np/search
+2026-09-03 15:25:23,226 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/np/search
+2026-09-03 15:25:26,899 [INFO] core.scraper: 세션 워밍업 메인=True 검색=False
+2026-09-03 15:25:27,292 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (1/4) url=/vp/products/
+2026-09-03 15:25:32,883 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (2/4) url=/vp/products/
+2026-09-03 15:25:40,256 [INFO] core.scraper: Akamai 차단 — 4초 후 새로고침 재시도 (3/4) url=/vp/products/
+2026-09-03 15:25:44,868 [INFO] core.scraper: Akamai 차단 — 8초 후 새로고침 재시도 (4/4) url=/vp/products/
+2026-09-03 15:25:52,731 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/vp/products/
+2026-09-03 15:26:06,018 [INFO] ui.settings_gui: 상품 추가됨: 신타6 (6573832879)
+2026-09-03 15:26:30,506 [INFO] ui.settings_gui: 상품 편집됨: 신타6 (6573832879)
+2026-09-03 15:26:55,888 [INFO] ui.settings_gui: 전역 설정 저장됨: D:\김호현\AI\Project\프로틴 할인 알림\config.json
+2026-09-03 15:26:57,455 [INFO] main: 설정 변경 반영: 주기=30분 상품=1개
+2026-09-03 15:29:45,270 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-03 15:29:54,018 [INFO] ui.settings_gui: 상품 편집됨: 신타6 (6573832879)
+2026-09-03 15:29:55,886 [INFO] ui.settings_gui: 전역 설정 저장됨: D:\김호현\AI\Project\프로틴 할인 알림\config.json
+2026-09-03 15:29:57,086 [INFO] main: 설정 변경 반영: 주기=30분 상품=1개
+2026-09-03 15:47:11,290 [INFO] core.scraper: 브라우저 기동 (Chrome 151, 프로필 D:\김호현\AI\Project\프로틴 할인 알림\data\chrome_profile)
+2026-09-03 15:47:11,763 [INFO] undetected_chromedriver.patcher: patching driver executable C:\Users\yooshin\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2026-09-03 15:47:19,039 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (1/5) url=/np/search
+2026-09-03 15:47:24,304 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (2/5) url=/np/search
+2026-09-03 15:47:30,311 [INFO] core.scraper: Akamai 차단 — 8초 후 새로고침 재시도 (3/5) url=/np/search
+2026-09-03 15:47:38,446 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (4/5) url=/np/search
+2026-09-03 15:47:44,405 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (5/5) url=/np/search
+2026-09-03 15:47:49,377 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/np/search
+2026-09-03 15:47:53,097 [INFO] core.scraper: 세션 워밍업 메인=True 검색=False
+2026-09-03 15:47:53,314 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (1/4) url=/vp/products/
+2026-09-03 15:48:00,902 [INFO] core.scraper: Akamai 차단 — 4초 후 새로고침 재시도 (2/4) url=/vp/products/
+2026-09-03 15:48:05,454 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (3/4) url=/vp/products/
+2026-09-03 15:48:12,939 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (4/4) url=/vp/products/
+2026-09-03 15:48:19,277 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/vp/products/
+2026-09-03 15:48:19,277 [INFO] core.scraper: 차단 감지 → 세션 재워밍업 후 1회 재시도
+2026-09-03 15:48:25,210 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (1/5) url=/np/search
+2026-09-03 15:48:31,384 [INFO] core.scraper: Akamai 차단 — 8초 후 새로고침 재시도 (2/5) url=/np/search
+2026-09-03 15:48:39,610 [INFO] core.scraper: Akamai 차단 — 8초 후 새로고침 재시도 (3/5) url=/np/search
+2026-09-03 15:48:47,772 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (4/5) url=/np/search
+2026-09-03 15:48:53,641 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (5/5) url=/np/search
+2026-09-03 15:48:58,555 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/np/search
+2026-09-03 15:49:01,193 [INFO] core.scraper: 세션 워밍업 메인=True 검색=False
+2026-09-03 15:49:05,705 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (1/4) url=/vp/products/
+2026-09-03 15:49:11,722 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (2/4) url=/vp/products/
+2026-09-03 15:49:19,385 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (3/4) url=/vp/products/
+2026-09-03 15:49:26,324 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (4/4) url=/vp/products/
+2026-09-03 15:49:32,081 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/vp/products/
+2026-09-03 15:49:32,081 [WARNING] core.scheduler: 가격 파싱 실패(연속 1회): 신타6
+2026-09-03 15:49:32,681 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 16:19:57.603394 (대기 약 1824.9초, backoff x1)
+2026-09-03 16:19:57,614 [INFO] core.scraper: 브라우저 기동 (Chrome 151, 프로필 D:\김호현\AI\Project\프로틴 할인 알림\data\chrome_profile)
+2026-09-03 16:20:06,987 [INFO] undetected_chromedriver.patcher: patching driver executable C:\Users\yooshin\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2026-09-03 16:20:15,987 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (1/5) url=/np/search
+2026-09-03 16:20:22,085 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (2/5) url=/np/search
+2026-09-03 16:20:28,996 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (3/5) url=/np/search
+2026-09-03 16:20:34,716 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (4/5) url=/np/search
+2026-09-03 16:20:41,896 [INFO] core.scraper: Akamai 차단 — 4초 후 새로고침 재시도 (5/5) url=/np/search
+2026-09-03 16:20:46,236 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/np/search
+2026-09-03 16:20:49,205 [INFO] core.scraper: 세션 워밍업 메인=True 검색=False
+2026-09-03 16:20:49,455 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (1/4) url=/vp/products/
+2026-09-03 16:20:55,866 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (2/4) url=/vp/products/
+2026-09-03 16:21:02,803 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (3/4) url=/vp/products/
+2026-09-03 16:21:08,891 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (4/4) url=/vp/products/
+2026-09-03 16:21:14,860 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/vp/products/
+2026-09-03 16:21:14,860 [INFO] core.scraper: 차단 감지 → 세션 재워밍업 후 1회 재시도
+2026-09-03 16:21:19,083 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (1/5) url=/np/search
+2026-09-03 16:21:26,596 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (2/5) url=/np/search
+2026-09-03 16:21:34,133 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (3/5) url=/np/search
+2026-09-03 16:21:39,081 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (4/5) url=/np/search
+2026-09-03 16:21:46,128 [INFO] core.scraper: Akamai 차단 — 4초 후 새로고침 재시도 (5/5) url=/np/search
+2026-09-03 16:21:50,453 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/np/search
+2026-09-03 16:21:53,855 [INFO] core.scraper: 세션 워밍업 메인=True 검색=False
+2026-09-03 16:21:57,408 [INFO] core.scraper: Akamai 차단 — 4초 후 새로고침 재시도 (1/4) url=/vp/products/
+2026-09-03 16:22:01,951 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (2/4) url=/vp/products/
+2026-09-03 16:22:06,801 [INFO] core.scraper: Akamai 차단 — 8초 후 새로고침 재시도 (3/4) url=/vp/products/
+2026-09-03 16:22:14,802 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (4/4) url=/vp/products/
+2026-09-03 16:22:20,426 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/vp/products/
+2026-09-03 16:22:20,427 [WARNING] core.scheduler: 가격 파싱 실패(연속 2회): 신타6
+2026-09-03 16:22:20,733 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 16:50:37.801886 (대기 약 1697.1초, backoff x1)
+2026-09-03 16:37:44,093 [INFO] ui.tray: 트레이: 지금 확인 요청
+2026-09-03 16:37:44,093 [INFO] core.scheduler: 즉시 점검 요청(run_once_async).
+2026-09-03 16:37:44,095 [INFO] core.scraper: 브라우저 기동 (Chrome 151, 프로필 D:\김호현\AI\Project\프로틴 할인 알림\data\chrome_profile)
+2026-09-03 16:37:44,410 [INFO] undetected_chromedriver.patcher: patching driver executable C:\Users\yooshin\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2026-09-03 16:37:52,526 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (1/5) url=/np/search
+2026-09-03 16:37:59,549 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (2/5) url=/np/search
+2026-09-03 16:38:06,186 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (3/5) url=/np/search
+2026-09-03 16:38:13,248 [INFO] core.scraper: Akamai 차단 — 4초 후 새로고침 재시도 (4/5) url=/np/search
+2026-09-03 16:38:17,945 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (5/5) url=/np/search
+2026-09-03 16:38:24,739 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/np/search
+2026-09-03 16:38:28,125 [INFO] core.scraper: 세션 워밍업 메인=True 검색=False
+2026-09-03 16:38:28,374 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (1/4) url=/vp/products/
+2026-09-03 16:38:35,339 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (2/4) url=/vp/products/
+2026-09-03 16:38:41,525 [INFO] core.scraper: Akamai 차단 — 4초 후 새로고침 재시도 (3/4) url=/vp/products/
+2026-09-03 16:38:46,126 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (4/4) url=/vp/products/
+2026-09-03 16:38:51,427 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/vp/products/
+2026-09-03 16:38:51,427 [INFO] core.scraper: 차단 감지 → 세션 재워밍업 후 1회 재시도
+2026-09-03 16:38:55,637 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (1/5) url=/np/search
+2026-09-03 16:39:02,775 [INFO] core.scraper: Akamai 차단 — 4초 후 새로고침 재시도 (2/5) url=/np/search
+2026-09-03 16:39:07,167 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (3/5) url=/np/search
+2026-09-03 16:39:14,528 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (4/5) url=/np/search
+2026-09-03 16:39:20,685 [INFO] core.scraper: Akamai 차단 — 8초 후 새로고침 재시도 (5/5) url=/np/search
+2026-09-03 16:39:28,434 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/np/search
+2026-09-03 16:39:32,075 [INFO] core.scraper: 세션 워밍업 메인=True 검색=False
+2026-09-03 16:39:36,381 [INFO] core.scraper: Akamai 차단 — 8초 후 새로고침 재시도 (1/4) url=/vp/products/
+2026-09-03 16:39:44,569 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (2/4) url=/vp/products/
+2026-09-03 16:39:52,267 [INFO] core.scraper: Akamai 차단 — 8초 후 새로고침 재시도 (3/4) url=/vp/products/
+2026-09-03 16:40:00,240 [INFO] core.scraper: Akamai 차단 — 4초 후 새로고침 재시도 (4/4) url=/vp/products/
+2026-09-03 16:40:04,698 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/vp/products/
+2026-09-03 16:40:04,699 [WARNING] core.scheduler: 가격 파싱 실패(연속 3회): 신타6
+2026-09-03 16:40:04,706 [INFO] core.notifier: 토스트 알림 표시: 가격 파싱 실패 / '신타6' 가격을 3회 연속으로 가져오지 못했습니다. selectors.json 또는 사이트 구조 변경을 확인해 주세요.
+2026-09-03 16:40:04,894 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 17:10:40.497149 (대기 약 1835.6초, backoff x1)
+2026-09-03 16:42:43,689 [INFO] ui.tray: 트레이: 지금 확인 요청
+2026-09-03 16:42:43,689 [INFO] core.scheduler: 즉시 점검 요청(run_once_async).
+2026-09-03 16:42:43,691 [INFO] core.scraper: 브라우저 기동 (Chrome 151, 프로필 D:\김호현\AI\Project\프로틴 할인 알림\data\chrome_profile)
+2026-09-03 16:42:44,037 [INFO] undetected_chromedriver.patcher: patching driver executable C:\Users\yooshin\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2026-09-03 16:42:51,439 [INFO] core.scraper: Akamai 차단 — 4초 후 새로고침 재시도 (1/5) url=/np/search
+2026-09-03 16:42:56,050 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (2/5) url=/np/search
+2026-09-03 16:43:01,820 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (3/5) url=/np/search
+2026-09-03 16:43:07,110 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (4/5) url=/np/search
+2026-09-03 16:43:14,298 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (5/5) url=/np/search
+2026-09-03 16:43:20,669 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/np/search
+2026-09-03 16:43:22,936 [INFO] core.scraper: 세션 워밍업 메인=True 검색=False
+2026-09-03 16:43:23,282 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (1/4) url=/vp/products/
+2026-09-03 16:43:28,728 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (2/4) url=/vp/products/
+2026-09-03 16:43:36,388 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (3/4) url=/vp/products/
+2026-09-03 16:43:43,327 [INFO] core.scraper: Akamai 차단 — 8초 후 새로고침 재시도 (4/4) url=/vp/products/
+2026-09-03 16:43:51,379 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/vp/products/
+2026-09-03 16:43:51,379 [INFO] core.scraper: 차단 감지 → 세션 재워밍업 후 1회 재시도
+2026-09-03 16:43:57,779 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (1/5) url=/np/search
+2026-09-03 16:44:02,698 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (2/5) url=/np/search
+2026-09-03 16:44:08,913 [INFO] core.scraper: Akamai 차단 — 8초 후 새로고침 재시도 (3/5) url=/np/search
+2026-09-03 16:44:17,147 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (4/5) url=/np/search
+2026-09-03 16:44:22,882 [INFO] core.scraper: Akamai 차단 — 7초 후 새로고침 재시도 (5/5) url=/np/search
+2026-09-03 16:44:30,453 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/np/search
+2026-09-03 16:44:33,036 [INFO] core.scraper: 세션 워밍업 메인=True 검색=False
+2026-09-03 16:44:38,402 [INFO] core.scraper: Akamai 차단 — 8초 후 새로고침 재시도 (1/4) url=/vp/products/
+2026-09-03 16:44:46,360 [INFO] core.scraper: Akamai 차단 — 6초 후 새로고침 재시도 (2/4) url=/vp/products/
+2026-09-03 16:44:52,736 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (3/4) url=/vp/products/
+2026-09-03 16:44:57,708 [INFO] core.scraper: Akamai 차단 — 5초 후 새로고침 재시도 (4/4) url=/vp/products/
+2026-09-03 16:45:03,257 [WARNING] core.scraper: Akamai 차단(Access Denied) 재시도 소진 url=/vp/products/
+2026-09-03 16:45:03,258 [WARNING] core.scheduler: 가격 파싱 실패(연속 4회): 신타6
+2026-09-03 16:45:03,288 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 17:18:33.721272 (대기 약 2010.4초, backoff x1)
+2026-09-03 18:30:47,460 [INFO] main: ============================================================
+2026-09-03 18:30:47,460 [INFO] main: 프로틴 할인 알림 시작
+2026-09-03 18:30:47,471 [INFO] core.scheduler: 스케줄러 스레드를 시작했습니다.
+2026-09-03 18:30:47,471 [INFO] main: 감시 시작 — 상품 1개, 주기 30분
+2026-09-03 18:30:47,516 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 실행됨 / 상품 1개를 30분마다 확인합니다.
+2026-09-03 18:30:48,223 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드)
+2026-09-03 18:32:41,308 [INFO] main: ============================================================
+2026-09-03 18:32:41,308 [INFO] main: 프로틴 할인 알림 시작
+2026-09-03 18:32:41,319 [INFO] core.scheduler: 스케줄러 스레드를 시작했습니다.
+2026-09-03 18:32:41,320 [INFO] main: 감시 시작 — 상품 1개, 주기 30분
+2026-09-03 18:32:41,365 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 실행됨 / 상품 1개를 30분마다 확인합니다.
+2026-09-03 18:32:42,056 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드)
+2026-09-03 18:33:09,623 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-03 18:33:21,341 [INFO] core.scraper: 수집 pid=6573832879 가격=94820 정가=101960 할인=7% 재고=in_stock
+2026-09-03 18:33:23,962 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 19:04:55.686883 (대기 약 1891.7초, backoff x1)
+2026-09-03 18:35:46,086 [INFO] ui.tray: 트레이: 종료 요청
+2026-09-03 18:35:46,086 [INFO] main: 종료 처리 중…
+2026-09-03 18:35:46,086 [INFO] core.scheduler: 스케줄러 정지를 요청합니다.
+2026-09-03 18:35:46,086 [INFO] core.scheduler: 스케줄러 스레드가 종료됩니다.
+2026-09-03 18:35:46,087 [INFO] core.scheduler: 스케줄러 정지 처리 완료.
+2026-09-03 18:35:46,412 [INFO] main: 프로그램 종료
+2026-09-03 18:36:07,726 [INFO] main: ============================================================
+2026-09-03 18:36:07,726 [INFO] main: 프로틴 할인 알림 시작
+2026-09-03 18:36:07,737 [INFO] core.scheduler: 스케줄러 스레드를 시작했습니다.
+2026-09-03 18:36:07,737 [INFO] main: 감시 시작 — 상품 1개, 주기 30분
+2026-09-03 18:36:07,777 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 실행됨 / 상품 1개를 30분마다 확인합니다.
+2026-09-03 18:36:08,457 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드)
+2026-09-03 18:36:19,668 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-03 18:36:36,746 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-03 18:36:47,382 [INFO] core.scraper: 수집 pid=6573832879 가격=94820 정가=101960 할인=7% 재고=in_stock
+2026-09-03 18:36:50,502 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 19:05:17.041009 (대기 약 1706.5초, backoff x1)
+2026-09-03 18:36:56,325 [INFO] ui.settings_gui: 상품 편집됨: 신타6 (6573832879)
+2026-09-03 18:36:58,512 [INFO] ui.settings_gui: 전역 설정 저장됨: D:\김호현\AI\Project\프로틴 할인 알림\config.json
+2026-09-03 18:36:59,903 [INFO] main: 설정 변경 반영: 주기=30분 상품=1개
+2026-09-03 18:37:11,016 [INFO] ui.tray: 트레이: 지금 확인 요청
+2026-09-03 18:37:11,017 [INFO] core.scheduler: 즉시 점검 요청(run_once_async).
+2026-09-03 18:37:11,018 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드)
+2026-09-03 18:37:38,332 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-03 18:37:49,408 [INFO] core.scraper: 수집 pid=6573832879 가격=94820 정가=101960 할인=7% 재고=in_stock
+2026-09-03 18:37:49,455 [INFO] core.notifier: 토스트 알림 표시: 신타6 / 94,820원 → 94,820원 (▼0%) · 목표가 95,000원 도달
+2026-09-03 18:37:52,058 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 19:04:14.136520 (대기 약 1582.1초, backoff x1)
+2026-09-03 18:37:56,668 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-03 18:46:16,658 [INFO] __main__: AUMID 등록/갱신 완료: 프로틴 할인 알림 (DisplayName=프로틴 할인 알림)
+2026-09-03 18:46:16,701 [INFO] __main__: 토스트 알림 표시: 마이프로틴 임팩트 웨이 1kg 초콜릿 / 52,900원 → 41,900원 (▼21%) · 목표가 45,000원 도달
+2026-09-03 18:46:17,176 [INFO] __main__: 토스트 알림 표시: 옵티멈뉴트리션 골드스탠다드 100% 웨이 2lbs 더블리치초콜릿 / 39,900원 · 역대 최저가 갱신! (이전 최저 42,000원)
+2026-09-03 18:46:17,679 [INFO] __main__: 토스트 알림 표시: 바디빌더스가든 웨이 프로틴 아이솔레이트 2kg / 품절 → 재입고! 현재가 68,000원
+2026-09-03 18:46:18,169 [INFO] __main__: 토스트 알림 표시: 프로틴 할인 알림 / 알림 시스템 자체 테스트가 완료되었습니다.
+2026-09-03 18:49:38,817 [INFO] __main__: 토스트 알림 표시: 마이프로틴 임팩트 웨이 1kg 초콜릿 / 52,900원 → 41,900원 (▼21%) · 목표가 45,000원 도달
+2026-09-03 18:49:39,297 [INFO] __main__: 토스트 알림 표시: 옵티멈뉴트리션 골드스탠다드 100% 웨이 2lbs 더블리치초콜릿 / 39,900원 · 역대 최저가 갱신! (이전 최저 42,000원)
+2026-09-03 18:49:39,793 [INFO] __main__: 토스트 알림 표시: 바디빌더스가든 웨이 프로틴 아이솔레이트 2kg / 품절 → 재입고! 현재가 68,000원
+2026-09-03 18:49:40,288 [INFO] __main__: 토스트 알림 표시: 프로틴 할인 알림 / 알림 시스템 자체 테스트가 완료되었습니다.
+2026-09-03 18:49:58,443 [INFO] main: ============================================================
+2026-09-03 18:49:58,443 [INFO] main: 프로틴 할인 알림 시작
+2026-09-03 18:49:58,454 [INFO] core.scheduler: 스케줄러 스레드를 시작했습니다.
+2026-09-03 18:49:58,454 [INFO] main: 감시 시작 — 상품 1개, 주기 30분
+2026-09-03 18:49:58,495 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 실행됨 / 상품 1개를 30분마다 확인합니다.
+2026-09-03 18:49:59,203 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-03 18:50:27,695 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-03 18:50:38,453 [INFO] core.scraper: 수집 pid=6573832879 가격=94820 정가=101960 할인=7% 재고=in_stock
+2026-09-03 18:50:38,579 [INFO] core.notifier: 토스트 알림 표시: 신타6 / 94,820원 · 목표가 95,000원 도달
+2026-09-03 18:50:41,270 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 19:22:24.677436 (대기 약 1903.4초, backoff x1)
+2026-09-03 19:22:24,746 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-03 19:22:57,795 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-03 19:23:09,212 [INFO] core.scraper: 수집 pid=6573832879 가격=94820 정가=101960 할인=7% 재고=in_stock
+2026-09-03 19:23:11,926 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 19:55:21.182589 (대기 약 1929.3초, backoff x1)
+2026-09-03 19:55:21,227 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-03 19:55:48,973 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-03 19:56:00,307 [INFO] core.scraper: 수집 pid=6573832879 가격=94820 정가=101960 할인=7% 재고=in_stock
+2026-09-03 19:56:02,943 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 20:22:48.768489 (대기 약 1605.8초, backoff x1)
+2026-09-03 20:22:48,825 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-03 20:23:22,826 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-03 20:23:34,008 [INFO] core.scraper: 수집 pid=6573832879 가격=94820 정가=101960 할인=7% 재고=in_stock
+2026-09-03 20:23:36,596 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 20:55:13.585518 (대기 약 1897.0초, backoff x1)
+2026-09-03 20:55:13,618 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-03 20:55:41,762 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-03 20:55:53,183 [INFO] core.scraper: 수집 pid=6573832879 가격=94820 정가=101960 할인=7% 재고=in_stock
+2026-09-03 20:55:55,515 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 21:25:55.701514 (대기 약 1800.2초, backoff x1)
+2026-09-03 21:04:41,476 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-03 21:04:56,391 [INFO] ui.tray: 트레이: 지금 확인 요청
+2026-09-03 21:04:56,391 [INFO] core.scheduler: 즉시 점검 요청(run_once_async).
+2026-09-03 21:04:56,392 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-03 21:05:24,566 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-03 21:05:35,322 [INFO] core.scraper: 수집 pid=6573832879 가격=94820 정가=101960 할인=7% 재고=in_stock
+2026-09-03 21:05:37,693 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 21:37:15.950768 (대기 약 1898.3초, backoff x1)
+2026-09-03 21:05:49,025 [INFO] ui.tray: 트레이: 종료 요청
+2026-09-03 21:05:49,025 [INFO] main: 종료 처리 중…
+2026-09-03 21:05:49,025 [INFO] core.scheduler: 스케줄러 정지를 요청합니다.
+2026-09-03 21:05:49,026 [INFO] core.scheduler: 스케줄러 스레드가 종료됩니다.
+2026-09-03 21:05:49,028 [INFO] core.scheduler: 스케줄러 정지 처리 완료.
+2026-09-03 21:05:49,444 [INFO] main: 프로그램 종료
+2026-09-03 21:05:53,624 [INFO] main: ============================================================
+2026-09-03 21:05:53,624 [INFO] main: 프로틴 할인 알림 시작
+2026-09-03 21:05:53,645 [INFO] core.scheduler: 스케줄러 스레드를 시작했습니다.
+2026-09-03 21:05:53,645 [INFO] main: 감시 시작 — 상품 1개, 주기 30분
+2026-09-03 21:05:53,708 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 실행됨 / 상품 1개를 30분마다 확인합니다.
+2026-09-03 21:05:55,759 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-03 21:06:22,954 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-03 21:06:33,557 [INFO] core.scraper: 수집 pid=6573832879 가격=94820 정가=101960 할인=7% 재고=in_stock
+2026-09-03 21:06:36,192 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 21:40:26.508997 (대기 약 2030.3초, backoff x1)
+2026-09-03 21:40:26,544 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-03 21:40:59,437 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-03 21:41:10,374 [INFO] core.scraper: 수집 pid=6573832879 가격=94820 정가=101960 할인=7% 재고=in_stock
+2026-09-03 21:41:12,876 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-03 22:14:48.992445 (대기 약 2016.1초, backoff x1)
+2026-09-04 07:50:18,033 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 07:51:02,129 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 07:51:12,586 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 07:51:12,673 [INFO] core.notifier: 토스트 알림 표시: 신타6 / 94,820원 → 87,820원 (▼7%) · 목표가 95,000원 도달
+2026-09-04 07:51:15,685 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 08:21:33.253057 (대기 약 1817.6초, backoff x1)
+2026-09-04 08:21:33,248 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 08:22:03,944 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 08:22:14,189 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 08:22:16,735 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 08:53:33.897455 (대기 약 1877.2초, backoff x1)
+2026-09-04 08:53:33,828 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 08:54:01,390 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 08:54:12,356 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 08:54:14,874 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 09:24:50.328602 (대기 약 1835.5초, backoff x1)
+2026-09-04 08:59:38,896 [INFO] __main__: 토스트 알림 표시: 마이프로틴 임팩트 웨이 1kg 초콜릿 / 52,900원 → 41,900원 (▼21%) · 목표가 45,000원 도달
+2026-09-04 08:59:39,396 [INFO] __main__: 토스트 알림 표시: 옵티멈뉴트리션 골드스탠다드 100% 웨이 2lbs 더블리치초콜릿 / 39,900원 · 역대 최저가 갱신! (이전 최저 42,000원)
+2026-09-04 08:59:39,879 [INFO] __main__: 토스트 알림 표시: 바디빌더스가든 웨이 프로틴 아이솔레이트 2kg / 품절 → 재입고! 현재가 68,000원
+2026-09-04 08:59:40,381 [INFO] __main__: 토스트 알림 표시: 프로틴 할인 알림 / 알림 시스템 자체 테스트가 완료되었습니다.
+2026-09-04 09:01:38,000 [INFO] main: ============================================================
+2026-09-04 09:01:38,000 [INFO] main: 프로틴 할인 알림 시작
+2026-09-04 09:01:38,013 [INFO] core.scheduler: 스케줄러 스레드를 시작했습니다.
+2026-09-04 09:01:38,013 [INFO] main: 감시 시작 — 상품 1개, 주기 30분
+2026-09-04 09:01:38,410 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 실행됨 / 상품 1개를 30분마다 확인합니다.
+2026-09-04 09:01:38,835 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 09:02:06,834 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 09:02:18,377 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 09:02:18,828 [INFO] core.notifier: 토스트 알림 표시: 신타6 / 87,820원 · 목표가 95,000원 도달
+2026-09-04 09:02:21,177 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 09:36:34.011853 (대기 약 2052.8초, backoff x1)
+2026-09-04 09:09:25,509 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-04 09:09:49,808 [INFO] ui.settings_gui: 상품 편집됨: 신타6 (6573832879)
+2026-09-04 09:09:55,052 [INFO] ui.settings_gui: 전역 설정 저장됨: D:\김호현\AI\Project\프로틴 할인 알림\config.json
+2026-09-04 09:09:56,425 [INFO] main: 설정 변경 반영: 주기=30분 상품=1개
+2026-09-04 09:10:00,035 [INFO] ui.tray: 트레이: 지금 확인 요청
+2026-09-04 09:10:00,035 [INFO] core.scheduler: 즉시 점검 요청(run_once_async).
+2026-09-04 09:10:00,036 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 09:10:28,379 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 09:10:39,827 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 09:10:42,176 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 09:40:17.688321 (대기 약 1775.5초, backoff x1)
+2026-09-04 09:38:43,767 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-04 09:39:16,725 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 09:39:44,463 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 09:40:00,776 [INFO] ui.settings_gui: 상품 추가됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더 (6422282333)
+2026-09-04 09:40:17,663 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 09:40:25,144 [INFO] ui.settings_gui: 상품 편집됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더 (6422282333)
+2026-09-04 09:40:43,474 [INFO] ui.settings_gui: 상품 편집됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더 (6422282333)
+2026-09-04 09:40:48,871 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 09:41:00,969 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 09:41:03,491 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 10:06:35.073954 (대기 약 1531.6초, backoff x1)
+2026-09-04 09:41:03,491 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 09:41:30,282 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 09:41:46,725 [INFO] ui.settings_gui: 상품 추가됨: 머슬팜 컴뱃 울트라 웨이 프로틴 파우더 드링크 믹스 단백질 보충제 초콜릿 밀크 - 복합 프로틴파우더 (9178775278)
+2026-09-04 09:42:01,408 [INFO] ui.settings_gui: 상품 편집됨: 머슬팜 컴뱃 울트라 웨이 프로틴 파우더 드링크 믹스 단백질 보충제 초콜릿 밀크 - 복합 프로틴파우더 (9178775278)
+2026-09-04 09:42:07,266 [INFO] ui.settings_gui: 전역 설정 저장됨: D:\김호현\AI\Project\프로틴 할인 알림\config.json
+2026-09-04 09:42:08,765 [INFO] main: 설정 변경 반영: 주기=30분 상품=3개
+2026-09-04 10:01:21,627 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-04 10:06:35,060 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 10:07:02,541 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 10:07:13,806 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 10:07:35,450 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=False
+2026-09-04 10:07:35,451 [WARNING] core.scheduler: 가격 파싱 실패(연속 1회): EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 10:07:58,003 [INFO] core.scraper: 수집 pid=9178775278 가격=89320 정가=105090 할인=15% 재고=in_stock
+2026-09-04 10:08:00,387 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 10:39:09.067159 (대기 약 1868.7초, backoff x1)
+2026-09-04 10:13:20,198 [INFO] main: ============================================================
+2026-09-04 10:13:20,198 [INFO] main: 프로틴 할인 알림 시작
+2026-09-04 10:13:20,208 [INFO] core.scheduler: 스케줄러 스레드를 시작했습니다.
+2026-09-04 10:13:20,208 [INFO] main: 감시 시작 — 상품 3개, 주기 30분
+2026-09-04 10:13:20,587 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 실행됨 / 상품 3개를 30분마다 확인합니다.
+2026-09-04 10:13:20,890 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 10:13:49,123 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 10:14:01,137 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 10:14:25,759 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=False
+2026-09-04 10:14:25,759 [WARNING] core.scheduler: 가격 파싱 실패(연속 1회): EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 10:14:45,429 [INFO] core.scraper: 수집 pid=9178775278 가격=89320 정가=105090 할인=15% 재고=in_stock
+2026-09-04 10:14:47,828 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 10:40:29.038501 (대기 약 1541.2초, backoff x1)
+2026-09-04 10:20:56,357 [INFO] main: ============================================================
+2026-09-04 10:20:56,357 [INFO] main: 프로틴 할인 알림 시작
+2026-09-04 10:20:56,367 [INFO] core.scheduler: 스케줄러 스레드를 시작했습니다.
+2026-09-04 10:20:56,368 [INFO] main: 감시 시작 — 상품 3개, 주기 30분
+2026-09-04 10:20:56,768 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 실행됨 / 상품 3개를 30분마다 확인합니다.
+2026-09-04 10:20:57,102 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 10:21:24,862 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 10:21:35,377 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 10:21:59,418 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 10:21:59,418 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 10:22:16,638 [INFO] core.scraper: 수집 pid=9178775278 가격=89320 정가=105090 할인=15% 재고=in_stock
+2026-09-04 10:22:19,693 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 10:54:20.570275 (대기 약 1920.9초, backoff x1)
+2026-09-04 10:28:34,532 [INFO] main: ============================================================
+2026-09-04 10:28:34,532 [INFO] main: 프로틴 할인 알림 시작
+2026-09-04 10:28:34,547 [INFO] core.scheduler: 스케줄러 스레드를 시작했습니다.
+2026-09-04 10:28:34,547 [INFO] main: 감시 시작 — 상품 3개, 주기 30분
+2026-09-04 10:28:35,001 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 실행됨 / 상품 3개를 30분마다 확인합니다.
+2026-09-04 10:28:35,320 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 10:29:03,564 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 10:29:15,239 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 10:29:40,936 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 10:29:40,936 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 10:30:01,488 [INFO] core.scraper: 수집 pid=9178775278 가격=89320 정가=105090 할인=15% 재고=in_stock
+2026-09-04 10:30:03,872 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 10:56:32.666054 (대기 약 1588.8초, backoff x1)
+2026-09-04 10:32:04,686 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-04 10:32:12,776 [INFO] ui.settings_gui: 화면 테마 변경 및 저장됨: dark
+2026-09-04 10:32:14,258 [INFO] ui.settings_gui: 화면 테마 변경 및 저장됨: light
+2026-09-04 10:32:17,065 [INFO] ui.settings_gui: 글꼴 변경 및 저장됨: Segoe UI Variable Text 10pt
+2026-09-04 10:32:19,245 [INFO] ui.settings_gui: 글꼴 변경 및 저장됨: 맑은 고딕 10pt
+2026-09-04 10:40:49,058 [INFO] main: ============================================================
+2026-09-04 10:40:49,058 [INFO] main: 프로틴 할인 알림 시작
+2026-09-04 10:40:49,069 [INFO] core.scheduler: 스케줄러 스레드를 시작했습니다.
+2026-09-04 10:40:49,069 [INFO] main: 감시 시작 — 상품 3개, 주기 30분
+2026-09-04 10:40:49,511 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 실행됨 / 상품 3개를 30분마다 확인합니다.
+2026-09-04 10:40:49,861 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 10:41:17,250 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 10:41:28,871 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 10:41:52,583 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 10:41:52,584 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 10:42:09,622 [INFO] core.scraper: 수집 pid=9178775278 가격=89320 정가=105090 할인=15% 재고=in_stock
+2026-09-04 10:42:12,355 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 11:15:34.887627 (대기 약 2002.5초, backoff x1)
+2026-09-04 11:15:35,139 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 11:16:03,972 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 11:16:15,054 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 11:16:32,346 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 11:16:32,346 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 11:16:51,631 [INFO] core.scraper: 수집 pid=9178775278 가격=89320 정가=105090 할인=15% 재고=in_stock
+2026-09-04 11:16:54,301 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 11:43:28.091555 (대기 약 1593.8초, backoff x1)
+2026-09-04 11:43:28,097 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 11:44:01,994 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 11:44:13,608 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 11:44:29,352 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 11:44:29,353 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 11:44:46,752 [INFO] core.scraper: 수집 pid=9178775278 가격=89320 정가=105090 할인=15% 재고=in_stock
+2026-09-04 11:44:49,512 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 12:15:51.820184 (대기 약 1862.3초, backoff x1)
+2026-09-04 12:15:51,849 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 12:16:18,963 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 12:16:30,401 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 12:16:45,884 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 12:16:45,884 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 12:17:10,623 [INFO] core.scraper: 수집 pid=9178775278 가격=89320 정가=105090 할인=15% 재고=in_stock
+2026-09-04 12:17:13,517 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 12:43:37.812710 (대기 약 1584.3초, backoff x1)
+2026-09-04 12:43:37,920 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 12:44:10,708 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 12:44:22,411 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 12:44:44,115 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 12:44:44,115 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 12:45:05,539 [INFO] core.scraper: 수집 pid=9178775278 가격=89320 정가=105090 할인=15% 재고=in_stock
+2026-09-04 12:45:08,265 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 13:14:29.517359 (대기 약 1761.3초, backoff x1)
+2026-09-04 13:14:29,871 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 13:14:58,818 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 13:15:09,528 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 13:15:26,230 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 13:15:26,230 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 13:15:51,686 [INFO] core.scraper: 수집 pid=9178775278 가격=89320 정가=105090 할인=15% 재고=in_stock
+2026-09-04 13:15:54,469 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 13:48:49.942615 (대기 약 1975.5초, backoff x1)
+2026-09-04 13:48:50,005 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 13:49:19,504 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 13:49:31,311 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 13:49:56,865 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 13:49:56,866 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 13:50:15,086 [INFO] core.scraper: 수집 pid=9178775278 가격=89320 정가=105090 할인=15% 재고=in_stock
+2026-09-04 13:50:17,905 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 14:21:30.115079 (대기 약 1872.2초, backoff x1)
+2026-09-04 14:21:30,398 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 14:22:04,353 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 14:22:15,007 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 14:22:36,515 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 14:22:36,515 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 14:23:02,561 [INFO] core.scraper: 수집 pid=9178775278 가격=89320 정가=105090 할인=15% 재고=in_stock
+2026-09-04 14:23:05,332 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 14:52:17.189130 (대기 약 1751.9초, backoff x1)
+2026-09-04 14:52:17,219 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 14:52:46,997 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 14:52:57,450 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 14:53:19,738 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 14:53:19,738 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 14:53:42,497 [INFO] core.scraper: 수집 pid=9178775278 가격=89320 정가=105090 할인=15% 재고=in_stock
+2026-09-04 14:53:45,240 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 15:21:05.900927 (대기 약 1640.7초, backoff x1)
+2026-09-04 15:21:05,920 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 15:21:38,943 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 15:21:49,562 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 15:22:12,279 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 15:22:12,279 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 15:22:29,732 [INFO] core.scraper: 수집 pid=9178775278 가격=89320 정가=105090 할인=15% 재고=in_stock
+2026-09-04 15:22:32,413 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 15:48:52.401081 (대기 약 1580.0초, backoff x1)
+2026-09-04 15:48:52,420 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 15:49:21,622 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 15:49:33,451 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 15:49:54,148 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 15:49:54,148 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 15:50:18,763 [INFO] core.scraper: 수집 pid=9178775278 가격=89320 정가=105090 할인=15% 재고=in_stock
+2026-09-04 15:50:21,577 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 16:23:36.134382 (대기 약 1994.6초, backoff x1)
+2026-09-04 16:23:36,160 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 16:24:04,497 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 16:24:15,326 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 16:24:35,633 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 16:24:35,633 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 16:25:00,247 [INFO] core.scraper: 수집 pid=9178775278 가격=89320 정가=105090 할인=15% 재고=in_stock
+2026-09-04 16:25:03,071 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 16:56:25.499767 (대기 약 1882.4초, backoff x1)
+2026-09-04 16:56:25,785 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 16:56:56,618 [INFO] ui.tray: 트레이: 지금 확인 요청
+2026-09-04 16:56:56,619 [INFO] core.scheduler: 즉시 점검 요청(run_once_async).
+2026-09-04 16:56:56,749 [INFO] ui.tray: 트레이: 지금 확인 요청
+2026-09-04 16:56:56,749 [INFO] core.scheduler: 즉시 점검 요청(run_once_async).
+2026-09-04 16:57:00,359 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 16:57:01,527 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-04 16:57:11,605 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 16:57:23,270 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 16:57:23,271 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 16:57:46,278 [INFO] core.scraper: 수집 pid=9178775278 가격=99830 정가=105090 할인=5% 재고=in_stock
+2026-09-04 16:57:48,635 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 17:24:00.211813 (대기 약 1571.6초, backoff x1)
+2026-09-04 16:57:50,767 [INFO] ui.settings_gui: 상품 편집됨: 비에스엔 신타-6 프로틴 파우더 드링크 믹스 단백질 보충제 초콜릿 밀크셰이크, 1개, 2.27kg (6573832879)
+2026-09-04 16:59:36,168 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 17:00:04,601 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 17:00:23,569 [INFO] ui.settings_gui: 상품 추가됨: 뉴트리코스트 WPC 웨이프로틴 맛있는 단백질 보충제 2268g 밀크 초코맛 1개, 2.268kg, 1개 - 기타건강식품 (8635910470)
+2026-09-04 17:00:32,576 [INFO] ui.settings_gui: 상품 편집됨: 뉴트리코스트 WPC 웨이프로틴 맛있는 단백질 보충제 2268g 밀크 초코맛 1개, 2.268kg, 1개 - 기타건강식품 (8635910470)
+2026-09-04 17:03:03,754 [INFO] ui.tray: 트레이: 지금 확인 요청
+2026-09-04 17:03:03,754 [INFO] core.scheduler: 즉시 점검 요청(run_once_async).
+2026-09-04 17:03:03,755 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 17:03:33,293 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 17:03:45,378 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 17:03:46,389 [INFO] ui.settings_gui: 글꼴 변경 및 저장됨: Noto Sans KR 10pt
+2026-09-04 17:03:52,764 [INFO] ui.settings_gui: 글꼴 변경 및 저장됨: Noto Sans KR 11pt
+2026-09-04 17:04:09,358 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 17:04:09,358 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 17:04:24,812 [INFO] ui.settings_gui: 화면 테마 변경 및 저장됨: dark
+2026-09-04 17:04:26,244 [INFO] ui.settings_gui: 화면 테마 변경 및 저장됨: light
+2026-09-04 17:04:30,458 [INFO] core.scraper: 수집 pid=9178775278 가격=99830 정가=105090 할인=5% 재고=in_stock
+2026-09-04 17:04:32,845 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 17:35:40.812482 (대기 약 1868.0초, backoff x1)
+2026-09-04 17:13:12,950 [INFO] ui.settings_gui: 전역 설정 저장됨: D:\김호현\AI\Project\프로틴 할인 알림\config.json
+2026-09-04 17:13:14,330 [INFO] main: 설정 변경 반영: 주기=30분 상품=4개
+2026-09-04 17:13:19,949 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-04 17:13:25,527 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-04 17:13:31,477 [INFO] ui.tray: 트레이: 지금 확인 요청
+2026-09-04 17:13:31,477 [INFO] core.scheduler: 즉시 점검 요청(run_once_async).
+2026-09-04 17:13:31,491 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-04 17:14:04,280 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-04 17:14:15,518 [INFO] core.scraper: 수집 pid=6573832879 가격=87820 정가=100950 할인=13% 재고=in_stock
+2026-09-04 17:14:39,937 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-04 17:14:39,937 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-04 17:15:02,334 [INFO] core.scraper: 수집 pid=9178775278 가격=99830 정가=105090 할인=5% 재고=in_stock
+2026-09-04 17:15:20,276 [INFO] core.scraper: 수집 pid=8635910470 가격=134900 정가=151970 할인=11% 재고=in_stock
+2026-09-04 17:15:23,111 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-04 17:50:18.671465 (대기 약 2095.6초, backoff x1)
+2026-09-04 17:16:49,804 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 07:52:04,078 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 07:53:49,678 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 07:53:52,593 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 07:54:46,518 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 07:54:46,518 [INFO] core.scraper: 차단 감지(coupang_403) → 워밍업 후 1회 재시도
+2026-09-07 07:55:52,626 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 07:55:54,993 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 07:56:51,836 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 07:56:51,836 [WARNING] core.scheduler: 가격 파싱 실패(연속 1회): 비에스엔 신타-6 프로틴 파우더 드링크 믹스 단백질 보충제 초콜릿 밀크셰이크, 1개, 2.27kg
+2026-09-07 07:57:52,376 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 07:57:52,376 [INFO] core.scraper: 차단 감지(coupang_403) → 워밍업 후 1회 재시도
+2026-09-07 07:58:57,181 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 07:59:00,271 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 07:59:58,485 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 07:59:58,486 [WARNING] core.scheduler: 가격 파싱 실패(연속 1회): EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 08:01:04,711 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:01:04,711 [INFO] core.scraper: 차단 감지(coupang_403) → 워밍업 후 1회 재시도
+2026-09-07 08:02:10,212 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:02:12,888 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 08:03:10,208 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:03:10,208 [WARNING] core.scheduler: 가격 파싱 실패(연속 1회): 머슬팜 컴뱃 울트라 웨이 프로틴 파우더 드링크 믹스 단백질 보충제 초콜릿 밀크 - 복합 프로틴파우더
+2026-09-07 08:04:17,779 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:04:17,779 [INFO] core.scraper: 차단 감지(coupang_403) → 워밍업 후 1회 재시도
+2026-09-07 08:05:22,418 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:05:25,429 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 08:06:22,525 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:06:22,525 [WARNING] core.scheduler: 가격 파싱 실패(연속 1회): 뉴트리코스트 WPC 웨이프로틴 맛있는 단백질 보충제 2268g 밀크 초코맛 1개, 2.268kg, 1개 - 기타건강식품
+2026-09-07 08:06:26,121 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-07 08:35:13.455413 (대기 약 1727.3초, backoff x1)
+2026-09-07 08:35:13,715 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 08:36:24,469 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:36:28,404 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 08:37:22,330 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:37:22,331 [INFO] core.scraper: 차단 감지(coupang_403) → 워밍업 후 1회 재시도
+2026-09-07 08:38:29,383 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:38:32,936 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 08:39:30,116 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:39:30,117 [WARNING] core.scheduler: 가격 파싱 실패(연속 2회): 비에스엔 신타-6 프로틴 파우더 드링크 믹스 단백질 보충제 초콜릿 밀크셰이크, 1개, 2.27kg
+2026-09-07 08:40:33,953 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:40:33,953 [INFO] core.scraper: 차단 감지(coupang_403) → 워밍업 후 1회 재시도
+2026-09-07 08:41:39,836 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:41:42,271 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 08:42:40,162 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:42:40,162 [WARNING] core.scheduler: 가격 파싱 실패(연속 2회): EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 08:43:48,092 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:43:48,093 [INFO] core.scraper: 차단 감지(coupang_403) → 워밍업 후 1회 재시도
+2026-09-07 08:44:54,733 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:44:57,660 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 08:45:54,256 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:45:54,256 [WARNING] core.scheduler: 가격 파싱 실패(연속 2회): 머슬팜 컴뱃 울트라 웨이 프로틴 파우더 드링크 믹스 단백질 보충제 초콜릿 밀크 - 복합 프로틴파우더
+2026-09-07 08:47:01,994 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:47:01,994 [INFO] core.scraper: 차단 감지(coupang_403) → 워밍업 후 1회 재시도
+2026-09-07 08:48:06,983 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:48:10,389 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 08:49:06,852 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 08:49:06,854 [WARNING] core.scheduler: 가격 파싱 실패(연속 2회): 뉴트리코스트 WPC 웨이프로틴 맛있는 단백질 보충제 2268g 밀크 초코맛 1개, 2.268kg, 1개 - 기타건강식품
+2026-09-07 08:49:09,767 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-07 09:14:45.955170 (대기 약 1536.2초, backoff x1)
+2026-09-07 09:02:16,500 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 09:02:32,234 [INFO] ui.tray: 트레이: 지금 확인 요청
+2026-09-07 09:02:32,234 [INFO] core.scheduler: 즉시 점검 요청(run_once_async).
+2026-09-07 09:02:32,237 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 09:03:42,598 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:03:46,576 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 09:04:12,164 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 09:04:40,663 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:04:40,664 [INFO] core.scraper: 차단 감지(coupang_403) → 워밍업 후 1회 재시도
+2026-09-07 09:05:46,777 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:05:49,889 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 09:06:49,006 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:06:49,006 [WARNING] core.scheduler: 가격 파싱 실패(연속 3회): 비에스엔 신타-6 프로틴 파우더 드링크 믹스 단백질 보충제 초콜릿 밀크셰이크, 1개, 2.27kg
+2026-09-07 09:06:49,429 [INFO] core.notifier: 토스트 알림 표시: 가격 파싱 실패 / '비에스엔 신타-6 프로틴 파우더 드링크 믹스 단백질 보충제 초콜릿 밀크셰이크, 1개, 2.27kg' 가격을 3회 연속으로 가져오지 못했습니다. selectors.json 또는 사이트 구조 변경을 확인해 주세요.
+2026-09-07 09:07:54,209 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:07:54,209 [INFO] core.scraper: 차단 감지(coupang_403) → 워밍업 후 1회 재시도
+2026-09-07 09:08:59,663 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:09:02,457 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 09:10:00,606 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:10:00,606 [WARNING] core.scheduler: 가격 파싱 실패(연속 3회): EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 09:10:00,971 [INFO] core.notifier: 토스트 알림 표시: 가격 파싱 실패 / 'EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더' 가격을 3회 연속으로 가져오지 못했습니다. selectors.json 또는 사이트 구조 변경을 확인해 주세요.
+2026-09-07 09:11:01,138 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:11:01,139 [INFO] core.scraper: 차단 감지(coupang_403) → 워밍업 후 1회 재시도
+2026-09-07 09:11:24,387 [INFO] main: ============================================================
+2026-09-07 09:11:24,387 [INFO] main: 프로틴 할인 알림 시작
+2026-09-07 09:11:24,442 [INFO] core.scheduler: 스케줄러 스레드를 시작했습니다.
+2026-09-07 09:11:24,442 [INFO] main: 감시 시작 — 상품 4개, 주기 30분
+2026-09-07 09:11:24,830 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 실행됨 / 상품 4개를 30분마다 확인합니다.
+2026-09-07 09:11:27,074 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 09:11:56,566 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 09:12:35,357 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:12:39,251 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 09:13:33,509 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:13:33,509 [INFO] core.scraper: 차단 감지(coupang_403) → 워밍업 후 1회 재시도
+2026-09-07 09:14:39,981 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:14:43,179 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 09:15:41,697 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:15:41,698 [WARNING] core.scheduler: 가격 파싱 실패(연속 1회): 비에스엔 신타-6 프로틴 파우더 드링크 믹스 단백질 보충제 초콜릿 밀크셰이크, 1개, 2.27kg
+2026-09-07 09:16:42,359 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:16:42,359 [INFO] core.scraper: 차단 감지(coupang_403) → 워밍업 후 1회 재시도
+2026-09-07 09:17:15,397 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 09:17:48,643 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:17:51,203 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 09:18:49,327 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:18:49,327 [WARNING] core.scheduler: 가격 파싱 실패(연속 1회): EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 09:19:56,595 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:19:56,596 [INFO] core.scraper: 차단 감지(coupang_403) → 워밍업 후 1회 재시도
+2026-09-07 09:21:01,535 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:21:03,973 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 09:22:01,666 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:22:01,666 [WARNING] core.scheduler: 가격 파싱 실패(연속 1회): 머슬팜 컴뱃 울트라 웨이 프로틴 파우더 드링크 믹스 단백질 보충제 초콜릿 밀크 - 복합 프로틴파우더
+2026-09-07 09:23:02,458 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:23:02,459 [INFO] core.scraper: 차단 감지(coupang_403) → 워밍업 후 1회 재시도
+2026-09-07 09:24:07,978 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:24:11,458 [INFO] core.scraper: 세션 워밍업 홈=True 검색=False
+2026-09-07 09:25:07,908 [WARNING] core.scraper: 페이지 준비 실패 (상태=coupang_403)
+2026-09-07 09:25:07,908 [WARNING] core.scheduler: 가격 파싱 실패(연속 1회): 뉴트리코스트 WPC 웨이프로틴 맛있는 단백질 보충제 2268g 밀크 초코맛 1개, 2.268kg, 1개 - 기타건강식품
+2026-09-07 09:25:10,617 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-07 09:57:25.776676 (대기 약 1935.2초, backoff x1)
+2026-09-07 09:52:41,759 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 09:52:48,475 [INFO] ui.settings_gui: 전역 설정 저장됨: D:\김호현\AI\Project\프로틴 할인 알림\config.json
+2026-09-07 09:52:49,585 [INFO] main: 설정 변경 반영: 주기=30분 상품=4개
+2026-09-07 09:57:25,817 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 09:57:50,896 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-07 09:58:01,599 [INFO] core.scraper: 수집 pid=6573832879 가격=87610 정가=100710 할인=13% 재고=in_stock
+2026-09-07 09:58:01,599 [INFO] core.scheduler: 가격 파싱 성공, 연속 실패 카운터 리셋: 비에스엔 신타-6 프로틴 파우더 드링크 믹스 단백질 보충제 초콜릿 밀크셰이크, 1개, 2.27kg
+2026-09-07 09:58:02,222 [INFO] core.notifier: 토스트 알림 표시: 비에스엔 신타-6 프로틴 파우더 드링크 믹스 단백질 보충제 초콜릿 밀크… / 87,610원 · 역대 최저가 갱신! (이전 최저 87,820원)
+2026-09-07 09:58:23,242 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-07 09:58:23,242 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 09:58:41,502 [INFO] core.scraper: 수집 pid=9178775278 가격=88700 정가=104360 할인=15% 재고=in_stock
+2026-09-07 09:58:41,503 [INFO] core.scheduler: 가격 파싱 성공, 연속 실패 카운터 리셋: 머슬팜 컴뱃 울트라 웨이 프로틴 파우더 드링크 믹스 단백질 보충제 초콜릿 밀크 - 복합 프로틴파우더
+2026-09-07 09:58:42,050 [INFO] core.notifier: 토스트 알림 표시: 머슬팜 컴뱃 울트라 웨이 프로틴 파우더 드링크 믹스 단백질 보충제 초콜… / 88,700원 · 역대 최저가 갱신! (이전 최저 89,320원)
+2026-09-07 09:58:58,969 [INFO] core.scraper: 수집 pid=8635910470 가격=134900 정가=151970 할인=11% 재고=in_stock
+2026-09-07 09:58:58,969 [INFO] core.scheduler: 가격 파싱 성공, 연속 실패 카운터 리셋: 뉴트리코스트 WPC 웨이프로틴 맛있는 단백질 보충제 2268g 밀크 초코맛 1개, 2.268kg, 1개 - 기타건강식품
+2026-09-07 09:59:01,651 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-07 10:25:07.912498 (대기 약 1566.3초, backoff x1)
+2026-09-07 09:59:58,315 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 10:00:10,052 [INFO] ui.settings_gui: 상품 편집됨: 뉴트리코스트 WPC 웨이프로틴 맛있는 단백질 보충제 2268g 밀크 초코맛 1개, 2.268kg, 1개 - 기타건강식품 (8635910470)
+2026-09-07 10:00:13,303 [INFO] ui.settings_gui: 전역 설정 저장됨: D:\김호현\AI\Project\프로틴 할인 알림\config.json
+2026-09-07 10:00:14,751 [INFO] main: 설정 변경 반영: 주기=30분 상품=4개
+2026-09-07 10:05:18,144 [INFO] main: ============================================================
+2026-09-07 10:05:18,144 [INFO] main: 프로틴 할인 알림 시작
+2026-09-07 10:05:18,161 [INFO] core.scheduler: 스케줄러 스레드를 시작했습니다.
+2026-09-07 10:05:18,161 [INFO] main: 감시 시작 — 상품 4개, 주기 30분
+2026-09-07 10:05:18,557 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 실행됨 / 상품 4개를 30분마다 확인합니다.
+2026-09-07 10:05:18,927 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 10:05:45,227 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-07 10:05:56,935 [INFO] core.scraper: 수집 pid=6573832879 가격=87610 정가=100710 할인=13% 재고=in_stock
+2026-09-07 10:06:17,332 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-07 10:06:17,332 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 10:06:36,594 [INFO] core.scraper: 수집 pid=9178775278 가격=88700 정가=104360 할인=15% 재고=in_stock
+2026-09-07 10:06:56,913 [INFO] core.scraper: 수집 pid=8635910470 가격=134900 정가=151970 할인=11% 재고=in_stock
+2026-09-07 10:06:59,335 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-07 10:33:11.481262 (대기 약 1572.1초, backoff x1)
+2026-09-07 10:08:33,284 [INFO] ui.tray: 트레이: 지금 확인 요청
+2026-09-07 10:08:33,284 [INFO] core.scheduler: 즉시 점검 요청(run_once_async).
+2026-09-07 10:08:33,286 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 10:08:33,427 [INFO] ui.tray: 트레이: 지금 확인 요청
+2026-09-07 10:08:33,428 [INFO] core.scheduler: 즉시 점검 요청(run_once_async).
+2026-09-07 10:08:38,919 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 10:08:58,656 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-07 10:09:09,637 [INFO] core.scraper: 수집 pid=6573832879 가격=87610 정가=100710 할인=13% 재고=in_stock
+2026-09-07 10:09:21,246 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-07 10:09:21,246 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 10:09:45,873 [INFO] core.scraper: 수집 pid=9178775278 가격=88700 정가=104360 할인=15% 재고=in_stock
+2026-09-07 10:10:03,159 [INFO] core.scraper: 수집 pid=8635910470 가격=134900 정가=151970 할인=11% 재고=in_stock
+2026-09-07 10:10:05,570 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-07 10:44:27.736223 (대기 약 2062.2초, backoff x1)
+2026-09-07 10:19:43,722 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 10:44:28,012 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 10:44:55,017 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-07 10:45:05,718 [INFO] core.scraper: 수집 pid=6573832879 가격=87610 정가=100710 할인=13% 재고=in_stock
+2026-09-07 10:45:30,408 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-07 10:45:30,409 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 10:45:54,942 [INFO] core.scraper: 수집 pid=9178775278 가격=88700 정가=104360 할인=15% 재고=in_stock
+2026-09-07 10:46:15,629 [INFO] core.scraper: 수집 pid=8635910470 가격=134900 정가=151970 할인=11% 재고=in_stock
+2026-09-07 10:46:18,995 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-07 11:18:04.978882 (대기 약 1906.0초, backoff x1)
+2026-09-07 11:04:03,224 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 11:07:13,877 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 11:10:34,739 [INFO] core.notifier: 프로세스 AppUserModelID 설정: 프로틴 할인 알림
+2026-09-07 11:10:34,739 [INFO] main: ============================================================
+2026-09-07 11:10:34,740 [INFO] main: 프로틴 할인 알림 시작
+2026-09-07 11:10:34,766 [INFO] core.notifier: AUMID 등록/갱신 완료: 프로틴 할인 알림 (DisplayName=프로틴 할인 알림)
+2026-09-07 11:10:34,769 [INFO] core.scheduler: 스케줄러 스레드를 시작했습니다.
+2026-09-07 11:10:34,769 [INFO] main: 감시 시작 — 상품 4개, 주기 30분
+2026-09-07 11:10:35,330 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 실행됨 / 상품 4개를 30분마다 확인합니다.
+2026-09-07 11:10:36,955 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 11:11:03,234 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-07 11:11:13,927 [INFO] core.scraper: 수집 pid=6573832879 가격=87610 정가=100710 할인=13% 재고=in_stock
+2026-09-07 11:11:30,120 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-07 11:11:30,121 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 11:11:38,014 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 11:11:51,444 [INFO] core.scraper: 수집 pid=9178775278 가격=88700 정가=104360 할인=15% 재고=in_stock
+2026-09-07 11:12:12,638 [INFO] core.scraper: 수집 pid=8635910470 가격=134900 정가=151970 할인=11% 재고=in_stock
+2026-09-07 11:12:15,034 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-07 11:45:48.470218 (대기 약 2013.4초, backoff x1)
+2026-09-07 11:45:48,494 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 11:46:14,143 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-07 11:46:25,220 [INFO] core.scraper: 수집 pid=6573832879 가격=87610 정가=100710 할인=13% 재고=in_stock
+2026-09-07 11:46:46,784 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-07 11:46:46,784 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 11:47:09,743 [INFO] core.scraper: 수집 pid=9178775278 가격=88700 정가=104360 할인=15% 재고=in_stock
+2026-09-07 11:47:35,882 [INFO] core.scraper: 수집 pid=8635910470 가격=134900 정가=151970 할인=11% 재고=in_stock
+2026-09-07 11:47:39,364 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-07 12:18:07.192938 (대기 약 1827.8초, backoff x1)
+2026-09-07 12:18:07,208 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 12:18:38,512 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-07 12:18:50,784 [INFO] core.scraper: 수집 pid=6573832879 가격=87610 정가=100710 할인=13% 재고=in_stock
+2026-09-07 12:19:08,908 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-07 12:19:08,908 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 12:19:29,508 [INFO] core.scraper: 수집 pid=9178775278 가격=88700 정가=104360 할인=15% 재고=in_stock
+2026-09-07 12:19:54,659 [INFO] core.scraper: 수집 pid=8635910470 가격=134900 정가=151970 할인=11% 재고=in_stock
+2026-09-07 12:19:57,578 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-07 12:53:56.644453 (대기 약 2039.1초, backoff x1)
+2026-09-07 12:53:56,736 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 12:54:22,084 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-07 12:54:32,827 [INFO] core.scraper: 수집 pid=6573832879 가격=87610 정가=100710 할인=13% 재고=in_stock
+2026-09-07 12:54:48,713 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-07 12:54:48,713 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 12:55:10,735 [INFO] core.scraper: 수집 pid=9178775278 가격=88700 정가=104360 할인=15% 재고=in_stock
+2026-09-07 12:55:28,844 [INFO] core.scraper: 수집 pid=8635910470 가격=134900 정가=151970 할인=11% 재고=in_stock
+2026-09-07 12:55:31,713 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-07 13:26:26.671469 (대기 약 1855.0초, backoff x1)
+2026-09-07 13:26:27,068 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 13:26:52,871 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-07 13:27:03,715 [INFO] core.scraper: 수집 pid=6573832879 가격=87610 정가=100710 할인=13% 재고=in_stock
+2026-09-07 13:27:20,947 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-07 13:27:20,947 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 13:27:46,250 [INFO] core.scraper: 수집 pid=9178775278 가격=88700 정가=104360 할인=15% 재고=in_stock
+2026-09-07 13:28:04,500 [INFO] core.scraper: 수집 pid=8635910470 가격=134900 정가=151970 할인=11% 재고=in_stock
+2026-09-07 13:28:07,300 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-07 14:00:03.915470 (대기 약 1916.6초, backoff x1)
+2026-09-07 14:00:04,239 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 14:00:30,363 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-07 14:00:41,191 [INFO] core.scraper: 수집 pid=6573832879 가격=87610 정가=100710 할인=13% 재고=in_stock
+2026-09-07 14:01:05,051 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-07 14:01:05,052 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 14:01:29,355 [INFO] core.scraper: 수집 pid=9178775278 가격=88700 정가=104360 할인=15% 재고=in_stock
+2026-09-07 14:01:49,088 [INFO] core.scraper: 수집 pid=8635910470 가격=134900 정가=151970 할인=11% 재고=in_stock
+2026-09-07 14:01:51,820 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-07 14:35:12.073258 (대기 약 2000.3초, backoff x1)
+2026-09-07 14:35:12,386 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 14:35:42,434 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-07 14:35:53,708 [INFO] core.scraper: 수집 pid=6573832879 가격=87610 정가=100710 할인=13% 재고=in_stock
+2026-09-07 14:36:12,903 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-07 14:36:12,903 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 14:36:29,450 [INFO] core.scraper: 수집 pid=9178775278 가격=88700 정가=104360 할인=15% 재고=in_stock
+2026-09-07 14:36:53,011 [INFO] core.scraper: 수집 pid=8635910470 가격=134900 정가=151970 할인=11% 재고=in_stock
+2026-09-07 14:36:55,814 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-07 15:05:16.731745 (대기 약 1700.9초, backoff x1)
+2026-09-07 14:44:43,217 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 14:44:47,963 [INFO] ui.tray: 트레이: 지금 확인 요청
+2026-09-07 14:44:47,964 [INFO] core.scheduler: 즉시 점검 요청(run_once_async).
+2026-09-07 14:44:47,965 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 14:44:53,199 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 14:45:02,784 [INFO] ui.settings_gui: 화면 테마 변경 및 저장됨: dark
+2026-09-07 14:45:04,721 [INFO] ui.settings_gui: 화면 테마 변경 및 저장됨: light
+2026-09-07 14:45:08,835 [INFO] ui.tray: 트레이: 지금 확인 요청
+2026-09-07 14:45:08,836 [INFO] core.scheduler: 즉시 점검 요청(run_once_async).
+2026-09-07 14:45:08,938 [INFO] ui.tray: 트레이: 지금 확인 요청
+2026-09-07 14:45:08,939 [INFO] core.scheduler: 즉시 점검 요청(run_once_async).
+2026-09-07 14:45:12,475 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-07 14:45:23,252 [INFO] core.scraper: 수집 pid=6573832879 가격=87610 정가=100710 할인=13% 재고=in_stock
+2026-09-07 14:45:34,851 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-07 14:45:34,852 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 14:45:52,739 [INFO] core.scraper: 수집 pid=9178775278 가격=88700 정가=104360 할인=15% 재고=in_stock
+2026-09-07 14:46:17,634 [INFO] core.scraper: 수집 pid=8635910470 가격=134900 정가=151970 할인=11% 재고=in_stock
+2026-09-07 14:46:20,048 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-07 15:16:13.452522 (대기 약 1793.4초, backoff x1)
+2026-09-07 14:54:40,590 [INFO] core.notifier: 프로세스 AppUserModelID 설정: 프로틴 할인 알림
+2026-09-07 14:54:40,590 [INFO] main: ============================================================
+2026-09-07 14:54:40,590 [INFO] main: 프로틴 할인 알림 시작
+2026-09-07 14:54:40,619 [INFO] core.notifier: AUMID 등록/갱신 완료: 프로틴 할인 알림 (DisplayName=프로틴 할인 알림)
+2026-09-07 14:54:40,622 [INFO] core.scheduler: 스케줄러 스레드를 시작했습니다.
+2026-09-07 14:54:40,622 [INFO] main: 감시 시작 — 상품 4개, 주기 30분
+2026-09-07 14:54:41,022 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 실행됨 / 상품 4개를 30분마다 확인합니다.
+2026-09-07 14:54:41,394 [INFO] core.scraper: 브라우저 기동 (SeleniumBase UC 모드, 창숨김=True)
+2026-09-07 14:55:08,000 [INFO] core.scraper: 세션 워밍업 홈=True 검색=True
+2026-09-07 14:55:19,713 [INFO] core.scraper: 수집 pid=6573832879 가격=87610 정가=100710 할인=13% 재고=in_stock
+2026-09-07 14:55:43,541 [WARNING] core.scraper: 가격 블록 없음 pid=6422282333 sold_out=True
+2026-09-07 14:55:43,541 [INFO] core.scheduler: 품절 상태로 확인됨: EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더
+2026-09-07 14:56:07,946 [INFO] core.scraper: 수집 pid=9178775278 가격=88700 정가=104360 할인=15% 재고=in_stock
+2026-09-07 14:56:27,645 [INFO] core.scraper: 수집 pid=8635910470 가격=134900 정가=151970 할인=11% 재고=in_stock
+2026-09-07 14:56:29,446 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 14:56:29,602 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 14:56:30,050 [INFO] core.scheduler: 다음 점검 예정 시각: 2026-09-07 15:25:47.176602 (대기 약 1757.1초, backoff x1)
+2026-09-07 14:56:42,038 [INFO] ui.tray: 트레이: 설정 창 열기
+2026-09-07 14:56:54,080 [INFO] core.notifier: 프로세스 AppUserModelID 설정: 프로틴 할인 알림
+2026-09-07 14:56:54,080 [INFO] main: ============================================================
+2026-09-07 14:56:54,080 [INFO] main: 프로틴 할인 알림 시작
+2026-09-07 14:56:54,082 [WARNING] main: 이미 실행 중입니다. 트레이 아이콘을 확인하세요.
+2026-09-07 14:56:54,083 [INFO] core.notifier: AUMID 등록/갱신 완료: 프로틴 할인 알림 (DisplayName=프로틴 할인 알림)
+2026-09-07 14:56:54,500 [INFO] core.notifier: 토스트 알림 표시: 프로틴 할인 알림 / 이미 실행 중입니다. 우측 하단 트레이를 확인하세요.

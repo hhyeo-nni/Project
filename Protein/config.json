@@ -1,0 +1,186 @@
+{
+  "poll_interval_minutes": 30,
+  "jitter_minutes": 5,
+  "cooldown_hours": 12,
+  "renotify_on_lower": true,
+  "sound": false,
+  "request_delay_seconds": [
+    5,
+    15
+  ],
+  "headless": true,
+  "products": [
+    {
+      "product_id": "6573832879",
+      "url": "https://www.coupang.com/vp/products/6573832879?vendorItemId=3180840758",
+      "name": "비에스엔 신타-6 프로틴 파우더 드링크 믹스 단백질 보충제 초콜릿 밀크셰이크, 1개, 2.27kg",
+      "item_id": null,
+      "vendor_item_id": "3180840758",
+      "protein_grams": null,
+      "enabled": true,
+      "image_url": null,
+      "rules": [
+        {
+          "kind": "target_price",
+          "threshold": 80000.0,
+          "enabled": true
+        },
+        {
+          "kind": "discount_rate",
+          "threshold": 0.0,
+          "enabled": false
+        },
+        {
+          "kind": "discount_spike",
+          "threshold": 0.0,
+          "enabled": false
+        },
+        {
+          "kind": "lowest_ever",
+          "threshold": 0,
+          "enabled": true
+        },
+        {
+          "kind": "restock",
+          "threshold": 0,
+          "enabled": false
+        },
+        {
+          "kind": "unit_price",
+          "threshold": 0.0,
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "product_id": "6422282333",
+      "url": "https://www.coupang.com/vp/products/6422282333?vendorItemId=81073326157",
+      "name": "EVLUTIONNUTRITION 웨이 프로틴 더블 리치 초콜릿 맛 - 복합 프로틴파우더",
+      "item_id": null,
+      "vendor_item_id": "81073326157",
+      "protein_grams": null,
+      "enabled": true,
+      "image_url": "//thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/8853/594cc08f76073d209fe028d46677e804029de69dc3d274885653cfc5ecea.jpg",
+      "rules": [
+        {
+          "kind": "target_price",
+          "threshold": 80000.0,
+          "enabled": true
+        },
+        {
+          "kind": "discount_rate",
+          "threshold": 0.0,
+          "enabled": false
+        },
+        {
+          "kind": "discount_spike",
+          "threshold": 0.0,
+          "enabled": false
+        },
+        {
+          "kind": "lowest_ever",
+          "threshold": 0,
+          "enabled": true
+        },
+        {
+          "kind": "restock",
+          "threshold": 0,
+          "enabled": true
+        },
+        {
+          "kind": "unit_price",
+          "threshold": 0.0,
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "product_id": "9178775278",
+      "url": "https://www.coupang.com/vp/products/9178775278?vendorItemId=4041827021",
+      "name": "머슬팜 컴뱃 울트라 웨이 프로틴 파우더 드링크 믹스 단백질 보충제 초콜릿 밀크 - 복합 프로틴파우더",
+      "item_id": null,
+      "vendor_item_id": "4041827021",
+      "protein_grams": null,
+      "enabled": true,
+      "image_url": "//thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/656b/89a40be7408d4179a376010643e952fb614b9003e43e5c25c2d47d7f4d3b.jpg",
+      "rules": [
+        {
+          "kind": "target_price",
+          "threshold": 80000.0,
+          "enabled": true
+        },
+        {
+          "kind": "discount_rate",
+          "threshold": 0.0,
+          "enabled": false
+        },
+        {
+          "kind": "discount_spike",
+          "threshold": 0.0,
+          "enabled": false
+        },
+        {
+          "kind": "lowest_ever",
+          "threshold": 0,
+          "enabled": true
+        },
+        {
+          "kind": "restock",
+          "threshold": 0,
+          "enabled": false
+        },
+        {
+          "kind": "unit_price",
+          "threshold": 0.0,
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "product_id": "8635910470",
+      "url": "https://www.coupang.com/vp/products/8635910470?vendorItemId=71973148179",
+      "name": "뉴트리코스트 WPC 웨이프로틴 맛있는 단백질 보충제 2268g 밀크 초코맛 1개, 2.268kg, 1개 - 기타건강식품",
+      "item_id": null,
+      "vendor_item_id": "71973148179",
+      "protein_grams": null,
+      "enabled": true,
+      "image_url": "//thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/d615/3119bf35bd3f4cd499260f8831c62c044e540f39fba9783cc8490ab70384.jpg",
+      "rules": [
+        {
+          "kind": "target_price",
+          "threshold": 80000.0,
+          "enabled": true
+        },
+        {
+          "kind": "discount_rate",
+          "threshold": 0.0,
+          "enabled": false
+        },
+        {
+          "kind": "discount_spike",
+          "threshold": 0.0,
+          "enabled": false
+        },
+        {
+          "kind": "lowest_ever",
+          "threshold": 0,
+          "enabled": true
+        },
+        {
+          "kind": "restock",
+          "threshold": 0,
+          "enabled": false
+        },
+        {
+          "kind": "unit_price",
+          "threshold": 0.0,
+          "enabled": false
+        }
+      ]
+    }
+  ],
+  "notify_app_id": null,
+  "theme": "light",
+  "font_family": "Noto Sans KR",
+  "font_size": 11
+}
