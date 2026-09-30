@@ -72,8 +72,16 @@ RECONNECT_HOME = 6
 RECONNECT_PAGE = 6
 
 
+# "이미 차단당한 상태"를 뜻하는 페이지 상태들. 더 두드려도 소용없다.
+BLOCKED_STATES = ("access_denied", "coupang_403")
+
+
 class ScraperBusyError(RuntimeError):
     """다른 작업이 브라우저를 쓰고 있어 시작하지 못했다."""
+
+
+class ScraperBlockedError(RuntimeError):
+    """쿠팡이 이 세션을 막고 있다. 이번 사이클은 더 시도해도 의미가 없다."""
 
 
 DEFAULT_SELECTORS: dict[str, Any] = {
@@ -164,6 +172,8 @@ class CoupangScraper:
         self._last_state = ""
         self._holds_lock = False
         self._hider: Optional[TaskbarHider] = None
+        # 이번 사이클에서 차단이 확인됐는가 (스케줄러가 읽어 사이클을 조기 종료한다)
+        self._blocked = False
 
     # ── 수명주기 ────────────────────────────────────────────────────────
     def start(self) -> None:
@@ -206,6 +216,15 @@ class CoupangScraper:
             self._release_lock()
             self.driver = None
             raise
+
+    @property
+    def is_blocked(self) -> bool:
+        """쿠팡이 이 세션을 막고 있다고 판단됐는가.
+
+        스케줄러는 이 값이 True가 되면 남은 상품을 건너뛰고 사이클을 끝내야 한다.
+        차단된 상태에서 계속 두드리면 차단이 더 굳어지기 때문이다.
+        """
+        return self._blocked
 
     def _stop_hider(self) -> None:
         """작업표시줄 감시 스레드를 정리한다. 실패해도 무시한다."""
@@ -301,8 +320,10 @@ class CoupangScraper:
             if state == "ok":
                 self._last_state = "ok"
                 return True
-            if state == "access_denied":
-                break          # 기다려도 안 풀린다
+            if state in BLOCKED_STATES:
+                # 차단 응답은 기다린다고 풀리지 않는다. 45초를 통째로 버리지 말고
+                # 즉시 빠져나온다(차단된 사이클이 13분씩 걸리던 원인).
+                break
             time.sleep(1.5)
         self._last_state = state
         logger.warning("페이지 준비 실패 (상태=%s)", state)
@@ -361,6 +382,16 @@ class CoupangScraper:
                 return build_price_point(pid, [], checked_at=started,
                                          extra_note="browser_start_failed")
 
+        # 워밍업(홈→검색)이 실패했다면 이미 차단된 상태다. 그런데도 상품을 하나씩
+        # 다 시도하고 실패할 때마다 재워밍업+재시도까지 돌면, 차단당한 순간 요청량이
+        # 오히려 3배로 늘어난다(실측: 하루 288회 → 864회). 차단을 더 굳히는 악순환이라
+        # 아예 시도하지 않고 즉시 포기한다.
+        if not self._warmed:
+            logger.warning("워밍업이 실패한 상태 — 차단으로 보고 이번 상품은 건너뜁니다 pid=%s", pid)
+            self._blocked = True
+            return build_price_point(pid, [], checked_at=started,
+                                     extra_note="skipped:not_warmed")
+
         try:
             if self._already_on(url):
                 # probe() 직후 같은 상품을 fetch() 하는 경우 — 다시 열면 403이 난다.
@@ -372,14 +403,23 @@ class CoupangScraper:
                 ok = self._wait_ready(45)
 
             # 차단됐으면 워밍업 경로를 다시 태우고 한 번만 재시도한다.
-            if not ok and self._last_state in ("access_denied", "coupang_403", "too_short"):
+            # (일시적인 403은 이걸로 회복된다 — 실제로 회복 사례를 확인했다)
+            if not ok and self._last_state in ("coupang_403", "too_short"):
                 logger.info("차단 감지(%s) → 워밍업 후 1회 재시도", self._last_state)
                 self._warm_up()
+                if not self._warmed:
+                    # 재워밍업까지 실패 = 확실히 막혔다. 남은 상품도 볼 필요 없다.
+                    logger.warning("재워밍업도 실패 — 이번 사이클은 중단합니다")
+                    self._blocked = True
+                    return build_price_point(pid, [], checked_at=started,
+                                             extra_note="blocked:warmup_failed")
                 time.sleep(random.uniform(2, 5))
                 self._open(url, RECONNECT_PAGE)
                 ok = self._wait_ready(45)
 
             if not ok:
+                if self._last_state in BLOCKED_STATES:
+                    self._blocked = True
                 return build_price_point(pid, [], checked_at=started,
                                          extra_note=f"page_not_ready:{self._last_state}")
 
