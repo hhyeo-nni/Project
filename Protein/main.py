@@ -62,7 +62,9 @@ def main() -> int:
         logger.warning("이미 실행 중입니다. 트레이 아이콘을 확인하세요.")
         try:
             Notifier(icon_path=ICON_FILE).notify_info(
-                "프로틴 할인 알림", "이미 실행 중입니다. 우측 하단 트레이를 확인하세요."
+                "프로틴 할인 알림",
+                "이미 실행 중입니다. 우측 하단 트레이를 확인하세요. "
+                "아이콘이 보이지 않으면 작업 관리자에서 pythonw.exe를 끝낸 뒤 다시 실행하세요.",
             )
         except Exception:
             pass

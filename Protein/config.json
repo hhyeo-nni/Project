@@ -1,5 +1,5 @@
 {
-  "poll_interval_minutes": 30,
+  "poll_interval_minutes": 60,
   "jitter_minutes": 5,
   "cooldown_hours": 12,
   "renotify_on_lower": true,

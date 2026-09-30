@@ -58,6 +58,12 @@ _MAX_BACKOFF_MULTIPLIER = 4
 # 연속 파싱 실패 이 횟수에 도달하면 1회 알림.
 _FAIL_STREAK_THRESHOLD = 3
 
+# 차단이 이어질 때 대기 시간을 늘리는 배수의 상한(30분 주기 기준 최대 4시간).
+_MAX_BLOCKED_BACKOFF_MULTIPLIER = 8
+
+# 차단이 이 횟수만큼 연속되면 사용자에게 1회 알린다.
+_BLOCKED_NOTIFY_AT = 2
+
 
 class Scheduler:
     """상품 가격을 주기적으로 점검하고 알림을 발생시키는 백그라운드 스케줄러."""
@@ -87,6 +93,11 @@ class Scheduler:
 
         # 상품별 연속 파싱 실패 카운터 (product_id -> 연속 실패 횟수)
         self._fail_streaks: dict[str, int] = {}
+
+        # 직전 사이클이 쿠팡 차단으로 끝났는가 / 연속 몇 번째인가.
+        # 차단이 이어지면 대기 시간을 크게 늘려 평판이 회복될 시간을 준다.
+        self._blocked_cycle = False
+        self._blocked_streak = 0
 
     # ------------------------------------------------------------------
     # 상태 조회
@@ -178,12 +189,33 @@ class Scheduler:
 
                 self._last_run_at = datetime.now()
 
-                if success:
-                    self._backoff_multiplier = 1
-                else:
+                if not success:
                     self._backoff_multiplier = min(
                         self._backoff_multiplier * 2, _MAX_BACKOFF_MULTIPLIER
                     )
+                elif self._blocked_cycle:
+                    # 차단은 "실패"와 다르게 다뤄야 한다. 30분 뒤에 또 두드리면
+                    # 차단이 계속 갱신될 뿐이라, 훨씬 길게(최대 8배) 쉬어 준다.
+                    self._blocked_streak += 1
+                    self._backoff_multiplier = min(
+                        2 ** self._blocked_streak, _MAX_BLOCKED_BACKOFF_MULTIPLIER
+                    )
+                    logger.warning(
+                        "차단 %d회 연속 — 다음 점검까지 평소의 %d배를 쉽니다.",
+                        self._blocked_streak, self._backoff_multiplier,
+                    )
+                    if self._blocked_streak == _BLOCKED_NOTIFY_AT:
+                        try:
+                            self._notifier.notify_error(
+                                "쿠팡 접속이 막혔습니다",
+                                "잠시 수집을 쉬었다가 다시 시도합니다. "
+                                "계속되면 확인 주기를 늘리거나 잠시 후 다시 실행해 주세요.",
+                            )
+                        except Exception:
+                            logger.exception("차단 알림 전송 실패")
+                else:
+                    self._backoff_multiplier = 1
+                    self._blocked_streak = 0
 
                 if self._stop_event.is_set():
                     break
@@ -245,6 +277,7 @@ class Scheduler:
         request_delay_seconds 범위 내 랜덤 지연을 둔다(첫 상품 앞에는 지연 없음).
         """
         all_events: list[AlertEvent] = []
+        self._blocked_cycle = False
 
         entries = [e for e in self._config.products if e.get("enabled", True)]
         if not entries:
@@ -283,6 +316,17 @@ class Scheduler:
                         "상품 점검 중 예외 발생(다음 상품으로 계속): product_id=%s",
                         entry.get("product_id"),
                     )
+
+                # 쿠팡이 이 세션을 막았다면 남은 상품을 두드려봐야 전부 실패한다.
+                # 오히려 요청량만 몇 배로 늘어 차단이 더 굳어지므로 즉시 중단한다.
+                if getattr(scraper, "is_blocked", False):
+                    self._blocked_cycle = True
+                    skipped = len(entries) - (i + 1)
+                    logger.warning(
+                        "쿠팡 차단 감지 — 이번 사이클을 중단합니다 (남은 상품 %d개 건너뜀).",
+                        skipped,
+                    )
+                    break
         finally:
             try:
                 scraper.stop()
@@ -305,7 +349,11 @@ class Scheduler:
 
         pp = scraper.fetch(product.url)
 
-        self._track_fetch_result(product.product_id, product.name, pp)
+        # 차단(쿠팡이 세션을 막음)은 파싱 실패가 아니다. 이걸 실패로 세면
+        # "가격 파싱 실패" 오류 알림이 차단 알림과 겹쳐 사용자를 혼란스럽게 한다.
+        # (품절을 실패로 세지 않는 것과 같은 이유)
+        if not getattr(scraper, "is_blocked", False):
+            self._track_fetch_result(product.product_id, product.name, pp)
 
         # --- 순서 중요: evaluate가 add_price보다 먼저 ---
         # (모듈 상단 docstring "호출 순서 계약" 참고 — LOWEST_EVER가
